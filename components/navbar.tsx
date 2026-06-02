@@ -9,11 +9,11 @@ interface NavbarProps {
 }
 
 const navLinks = [
-  { label: 'About',        href: '#about'    },
-  { label: 'Services',     href: '#services' },
-  { label: 'Why Us',       href: '#why'      },
-  { label: 'How It Works', href: '#how'      },
-  { label: 'Contact',      href: '#contact'  },
+  { label: 'About', href: '#about' },
+  { label: 'Services', href: '#services' },
+  { label: 'Why Us', href: '#why' },
+  { label: 'How It Works', href: '#how' },
+  { label: 'Contact', href: '#contact' },
 ];
 
 export default function Navbar({ isScrolled }: NavbarProps) {
@@ -135,48 +135,35 @@ export default function Navbar({ isScrolled }: NavbarProps) {
 
           {/* ── Logo ── */}
           <a href="/" className="flex items-center gap-2.5 no-underline">
-            {/*
-              Replace the div below with your real logo image:
-              <img src="/images/zakasa-logo.png" alt="Zakasa" className="h-8 w-auto" />
-            */}
-            <div
-              style={{
-                width: 36, height: 36, borderRadius: 9,
-                background: 'linear-gradient(135deg, #3a8a1a, #a3d65c)',
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
-                flexShrink: 0,
-              }}
-            >
-              {/* Leaf SVG placeholder — swap for your <img> */}
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
-                <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
-              </svg>
-            </div>
+
+            {/* Replace the div below with your real logo image: */}
+            <img src="/images/zakasa.jpeg" alt="Zakasa" className="h-8 w-auto" />
+
+
             <span style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 20, fontWeight: 700, color: '#fff', letterSpacing: '0.03em' }}>
               Zakasa
             </span>
           </a>
 
-{/* Desktop links */}
-<div className="zk-desktop-links" style={{ alignItems: 'center', gap: 28 }}>
-  {navLinks.map(link => (
-    <a key={link.href} href={link.href} className="zk-link">{link.label}</a>
-  ))}
-</div>
+          {/* Desktop links */}
+          <div className="zk-desktop-links" style={{ alignItems: 'center', gap: 28 }}>
+            {navLinks.map(link => (
+              <a key={link.href} href={link.href} className="zk-link">{link.label}</a>
+            ))}
+          </div>
 
-{/* CTA + mobile toggle */}
-<div className="flex items-center gap-3">
-  <a href="#contact" className="zk-cta zk-desktop-cta">Get Started</a>
-  <button className="zk-hamburger" onClick={() => setIsOpen(v => !v)} aria-label="Toggle menu">
-    {isOpen ? <X size={18} /> : <Menu size={18} />}
-  </button>
-</div>
+          {/* CTA + mobile toggle */}
+          <div className="flex items-center gap-3">
+            <a href="#contact" className="zk-cta zk-desktop-cta">Get Started</a>
+            <button className="zk-hamburger" onClick={() => setIsOpen(v => !v)} aria-label="Toggle menu">
+              {isOpen ? <X size={18} /> : <Menu size={18} />}
+            </button>
+          </div>
         </div>
 
         {/* ── Mobile dropdown ── */}
         {isOpen && (
-         <div className="zk-mobile-menu" style={{ display: isOpen ? 'block' : 'none' }}>
+          <div className="zk-mobile-menu" style={{ display: isOpen ? 'block' : 'none' }}>
             <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex flex-col gap-1">
               {navLinks.map(link => (
                 <a
