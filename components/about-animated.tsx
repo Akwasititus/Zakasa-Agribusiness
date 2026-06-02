@@ -22,7 +22,7 @@ export default function About() {
             variants={slideInLeftVariants}
             className="relative"
           >
-            <div className="bg-gradient-to-br from-[#1A5C1A] to-[#0a280a] rounded-lg overflow-hidden h-96 md:h-full">
+            <div className="bg-linear-to-br from-[#1A5C1A] to-[#0a280a] rounded-lg overflow-hidden h-96 md:h-full">
               <img
                 src="https://images.unsplash.com/photo-1500382017468-8049bbd29d38?w=600&q=80"
                 alt="About Zakasa"

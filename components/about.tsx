@@ -15,12 +15,12 @@ export default function About() {
             </p>
           </div>
           <div className="space-y-5 sm:space-y-6 md:space-y-8 order-1 md:order-2 animate-fade-in-right">
-            <div className="bg-gradient-to-br from-[#1A5C1A] to-[#4CAF50] p-5 sm:p-6 md:p-8 rounded-lg text-white hover:shadow-xl hover:scale-105 transition duration-300 animate-scale-in">
+            <div className="bg-linear-to-br from-[#1A5C1A] to-[#4CAF50] p-5 sm:p-6 md:p-8 rounded-lg text-white hover:shadow-xl hover:scale-105 transition duration-300 animate-scale-in">
               <Target className="w-6 sm:w-7 md:w-8 h-6 sm:h-7 md:h-8 mb-2 sm:mb-3 text-[#F5C518]" />
               <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-2 sm:mb-3">Our Mission</h3>
               <p className="text-sm sm:text-base">To empower smallholder farmers with access to quality inputs, mechanization, and markets at affordable prices through innovative digital solutions.</p>
             </div>
-            <div className="bg-gradient-to-br from-[#4CAF50] to-[#1A5C1A] p-5 sm:p-6 md:p-8 rounded-lg text-white hover:shadow-xl hover:scale-105 transition duration-300 animate-scale-in animate-delay-100">
+            <div className="bg-linear-to-br from-[#4CAF50] to-[#1A5C1A] p-5 sm:p-6 md:p-8 rounded-lg text-white hover:shadow-xl hover:scale-105 transition duration-300 animate-scale-in animate-delay-100">
               <Lightbulb className="w-6 sm:w-7 md:w-8 h-6 sm:h-7 md:h-8 mb-2 sm:mb-3 text-[#F5C518]" />
               <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-2 sm:mb-3">Our Vision</h3>
               <p className="text-sm sm:text-base">To create a prosperous agricultural ecosystem where every farmer has the tools, knowledge, and market access to thrive and feed their families.</p>

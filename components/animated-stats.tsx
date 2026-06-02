@@ -16,7 +16,7 @@ export function AnimatedStats() {
   ];
 
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-r from-[#1A5C1A] to-[#0a280a]">
+    <section className="py-12 sm:py-16 md:py-20 bg-linear-to-r from-[#1A5C1A] to-[#0a280a]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           ref={ref}

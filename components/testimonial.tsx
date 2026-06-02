@@ -2,7 +2,7 @@ import { Quote } from 'lucide-react';
 
 export default function Testimonial() {
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-r from-[#1A5C1A] to-[#4CAF50]">
+    <section className="py-12 sm:py-16 md:py-20 bg-linear-to-r from-[#1A5C1A] to-[#4CAF50]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center text-white animate-fade-in-up">
           <Quote className="w-12 sm:w-14 md:w-16 h-12 sm:h-14 md:h-16 mx-auto mb-4 sm:mb-6 md:mb-8 text-[#F5C518] animate-pulse-slow" />

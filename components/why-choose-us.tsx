@@ -28,7 +28,7 @@ export default function WhyChooseUs() {
   }, []);
 
   return (
-    <section id="why" className="py-12 sm:py-16 md:py-20 bg-gradient-to-r from-[#1A5C1A] to-[#0d3d0d] text-white">
+    <section id="why" className="py-12 sm:py-16 md:py-20 bg-linear-to-r from-[#1A5C1A] to-[#0d3d0d] text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10 sm:mb-12 md:mb-16 animate-fade-in-down">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4 text-balance">Why Choose Zakasa?</h2>
@@ -38,28 +38,28 @@ export default function WhyChooseUs() {
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="space-y-4 sm:space-y-5 md:space-y-6 animate-fade-in-left">
             <div className="flex gap-3 sm:gap-4 animate-fade-in-left">
-              <div className="text-[#F5C518] text-2xl sm:text-3xl flex-shrink-0">✓</div>
+              <div className="text-[#F5C518] text-2xl sm:text-3xl shrink-0">✓</div>
               <div>
                 <h3 className="text-base sm:text-lg md:text-xl font-bold mb-1 sm:mb-2">Pay After Harvest</h3>
                 <p className="text-sm sm:text-base text-gray-200">No upfront costs. Get inputs and services now, pay from your harvest proceeds.</p>
               </div>
             </div>
             <div className="flex gap-3 sm:gap-4 animate-fade-in-left animate-delay-100">
-              <div className="text-[#F5C518] text-2xl sm:text-3xl flex-shrink-0">✓</div>
+              <div className="text-[#F5C518] text-2xl sm:text-3xl shrink-0">✓</div>
               <div>
                 <h3 className="text-base sm:text-lg md:text-xl font-bold mb-1 sm:mb-2">Quality Guaranteed</h3>
                 <p className="text-sm sm:text-base text-gray-200">All inputs are certified and tested for optimal crop performance.</p>
               </div>
             </div>
             <div className="flex gap-3 sm:gap-4 animate-fade-in-left animate-delay-200">
-              <div className="text-[#F5C518] text-2xl sm:text-3xl flex-shrink-0">✓</div>
+              <div className="text-[#F5C518] text-2xl sm:text-3xl shrink-0">✓</div>
               <div>
                 <h3 className="text-base sm:text-lg md:text-xl font-bold mb-1 sm:mb-2">Fair Prices</h3>
                 <p className="text-sm sm:text-base text-gray-200">Transparent pricing and direct market access reduce middlemen costs.</p>
               </div>
             </div>
             <div className="flex gap-3 sm:gap-4 animate-fade-in-left animate-delay-300">
-              <div className="text-[#F5C518] text-2xl sm:text-3xl flex-shrink-0">✓</div>
+              <div className="text-[#F5C518] text-2xl sm:text-3xl shrink-0">✓</div>
               <div>
                 <h3 className="text-base sm:text-lg md:text-xl font-bold mb-1 sm:mb-2">Expert Support</h3>
                 <p className="text-sm sm:text-base text-gray-200">Access to trained agronomists and farmer mentors available 24/7.</p>

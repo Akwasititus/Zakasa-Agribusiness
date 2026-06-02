@@ -98,19 +98,19 @@ export default function Contact() {
               <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-[#1A5C1A] mb-3 sm:mb-4">Why Contact Us?</h3>
               <ul className="space-y-2 sm:space-y-3 text-gray-700 text-sm sm:text-base">
                 <li className="flex items-start gap-2 sm:gap-3">
-                  <span className="text-[#F5C518] font-bold flex-shrink-0">→</span>
+                  <span className="text-[#F5C518] font-bold shrink-0">→</span>
                   <span>Learn more about our services and programs</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
-                  <span className="text-[#F5C518] font-bold flex-shrink-0">→</span>
+                  <span className="text-[#F5C518] font-bold shrink-0">→</span>
                   <span>Register your farm and get started today</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
-                  <span className="text-[#F5C518] font-bold flex-shrink-0">→</span>
+                  <span className="text-[#F5C518] font-bold shrink-0">→</span>
                   <span>Partner with us as an aggregator or service provider</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
-                  <span className="text-[#F5C518] font-bold flex-shrink-0">→</span>
+                  <span className="text-[#F5C518] font-bold shrink-0">→</span>
                   <span>Provide feedback or suggestions for improvement</span>
                 </li>
               </ul>

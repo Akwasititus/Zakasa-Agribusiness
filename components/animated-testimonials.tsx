@@ -57,7 +57,7 @@ export function AnimatedTestimonials() {
               key={index}
               variants={slideInUpVariants}
               whileHover={{ y: -10 }}
-              className="bg-gradient-to-br from-gray-50 to-gray-100 p-6 md:p-8 rounded-lg border border-gray-200"
+              className="bg-linear-to-br from-gray-50 to-gray-100 p-6 md:p-8 rounded-lg border border-gray-200"
             >
               <motion.div
                 className="flex items-center gap-4 mb-4"
