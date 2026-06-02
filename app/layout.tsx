@@ -7,9 +7,9 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: 'Zakasa Agribusiness',
+  description: 'Empowering farmers with quality inputs, mechanization, and market access through innovative digital solutions.',
+  generator: 'Next.js',
   icons: {
     icon: [
       {
