@@ -3,8 +3,8 @@
 import { useEffect, useState } from 'react';
 
 const stats = [
-  { value: 500, label: 'Farmers Supported', suffix: '+' },
-  { value: 50, label: 'Communities Served', suffix: '+' },
+  { value: 50, label: 'Farmers Supported', suffix: '+' },
+  { value: 7, label: 'Communities Served', suffix: '+' },
 ];
 
 export default function WhyChooseUs() {

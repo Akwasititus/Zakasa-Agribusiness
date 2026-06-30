@@ -10,8 +10,8 @@ export default function Testimonial() {
             &quot;Zakasa changed my farming game. I used to struggle finding quality seeds and good markets. Now, with their pay-after-harvest model, I can invest in my farm without financial stress. My harvest doubled in just one season!&quot;
           </p>
           <div className="mt-6 sm:mt-8">
-            <p className="text-base sm:text-lg md:text-xl font-bold">John Kipchoge</p>
-            <p className="text-sm sm:text-base text-gray-200">Smallholder Farmer, Kenya</p>
+            <p className="text-base sm:text-lg md:text-xl font-bold"> Sadia Ayariga</p>
+            <p className="text-sm sm:text-base text-gray-200">Smallholder Farmer, Garu Ghana</p>
           </div>
         </div>
       </div>

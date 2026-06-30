@@ -30,7 +30,7 @@ export default function Contact() {
           <div className="bg-white p-5 sm:p-6 md:p-8 rounded-lg shadow-md text-center hover:shadow-lg hover:scale-105 transition duration-300 animate-fade-in-up">
             <Mail className="w-8 sm:w-9 md:w-10 h-8 sm:h-9 md:h-10 text-[#F5C518] mx-auto mb-3 sm:mb-4" />
             <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#1A5C1A] mb-1 sm:mb-2">Email</h3>
-            <p className="text-sm sm:text-base text-gray-600">info@zakasa.com</p>
+            <p className="text-sm sm:text-base text-gray-600">zakasaagribusiness@gmail.com</p>
           </div>
           <div className="bg-white p-5 sm:p-6 md:p-8 rounded-lg shadow-md text-center hover:shadow-lg hover:scale-105 transition duration-300 animate-fade-in-up animate-delay-100">
             <Phone className="w-8 sm:w-9 md:w-10 h-8 sm:h-9 md:h-10 text-[#F5C518] mx-auto mb-3 sm:mb-4" />
@@ -40,7 +40,7 @@ export default function Contact() {
           <div className="bg-white p-5 sm:p-6 md:p-8 rounded-lg shadow-md text-center hover:shadow-lg hover:scale-105 transition duration-300 animate-fade-in-up animate-delay-200">
             <MapPin className="w-8 sm:w-9 md:w-10 h-8 sm:h-9 md:h-10 text-[#F5C518] mx-auto mb-3 sm:mb-4" />
             <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#1A5C1A] mb-1 sm:mb-2">Location</h3>
-            <p className="text-sm sm:text-base text-gray-600">Nairobi, Kenya</p>
+            <p className="text-sm sm:text-base text-gray-600">Bawku, Ghana</p>
           </div>
         </div>
 
